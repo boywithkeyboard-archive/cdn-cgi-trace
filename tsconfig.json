@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "skipLibCheck": true,
+    "strict": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "moduleResolution": "Bundler",
+    "outDir": "build"
+  },
+  "include": [
+    "index.ts"
+  ],
+  "exclude": [
+    "build",
+    "node_modules"
+  ]
+}
