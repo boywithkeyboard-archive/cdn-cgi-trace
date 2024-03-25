@@ -1,6 +1,6 @@
 {
   "name": "cdn-cgi-trace",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "Samuel Kopp (https://samuelkopp.de)",
   "license": "MIT",
   "description": "Parse /cdn-cgi/trace to JSON",
