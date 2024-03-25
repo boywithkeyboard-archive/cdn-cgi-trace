@@ -17,8 +17,8 @@ export type Trace = {
   kex: string
 }
 
-export async function fetchTrace(): Promise<Trace> {
-  const res = await fetch('https://1.1.1.1/cdn-cgi/trace')
+export async function fetchTrace(domain: '1.1.1.1' | 'cloudflare.com' | 'one.one.one.one' = '1.1.1.1'): Promise<Trace> {
+  const res = await fetch(`https://${domain}/cdn-cgi/trace`)
 
   let str = await res.text()
 
